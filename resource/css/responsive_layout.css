@@ -122,6 +122,19 @@
 }
 @media screen and (max-width:710px){
   .slider .title{
+  font-size: 2.5rem;
+}
+.slider .text{
+  letter-spacing: 1px;
+  font-size:8.rem;
+  line-height: 20px;
+  margin:20px 0;
+}
+.btn{
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+  .slider .title{
     font-size: 2rem;
   }
   .slider .text{
@@ -139,6 +152,7 @@
     height: 2800px;
   }
   .product-list .item{
+    width:80%;
     margin:0 auto 4%;
     float: none;
   }
@@ -149,7 +163,7 @@
   }
   .aside-item{
     width: 100%;
-    height:500px;
+    height:540px;
     float:none;
   }
   .aside-item.text-section{
@@ -166,7 +180,7 @@
     height: 1500px;
   }
   .card-item{
-    width:70%;
+    width:100%;
     margin:30px auto;
     float:none;
   }
