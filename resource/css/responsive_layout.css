@@ -23,6 +23,7 @@
   font-weight: 300;
   font-size:.8rem;
 }
+ 
 .btn{
   padding: 10px 20px;
   font-size: 1rem;
@@ -33,6 +34,10 @@
 .item-body p{
   font-size:12px;
 }
+  .aside img{
+    width:70%;
+    height:70%;
+  }
 }
  @media screen and (max-width:977px){
   /* Header Section */
