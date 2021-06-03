@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact Us</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;1,100;1,700&display=swap" rel="stylesheet">
+  <!-- Fontawesome for Icons -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="resource/css/style.css">
+  <link rel="stylesheet" href="resource/css/style.css">
+  <link rel="stylesheet" href="resource/css/responsive_layout.css">
+  <style>
+    header{
+      height:350px;
+      background-image:url("resource/images/68651581-spirit-wallpapers.jpg");
+      /* text-align:center; */
+    }
+    .slider{
+      margin:0;
+      width:100%;
+      text-align:center;
+    }
+    .h1{
+      font-size: 2rem;
+      letter-spacing: 8px;
+      margin:0;
+      }
+    .p{
+      line-height: 40px;
+      margin:20px 0;
+      letter-spacing: 4px;
+    }
+    .contact-form{
+      text-align:center;
+      padding:30px;
+    }
+    .form-action{
+      width:50%;
+      margin:0 auto;
+    }
+    input,textarea{
+      width:100%;
+      padding:15px;
+      font-family:"Montserrat", sans-serif;
+      font-size:16px;
+      background-color:transparent;
+      border:1px solid gray;
+      outline:0;
+    }
+    input:focus, textarea:focus{
+      border:1px solid white;
+    }
+    .form-field{
+      margin-bottom:10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="nav">
+      <a href="index.html" class="brand">ONEPOINT</a>
+      <input type="checkbox" id="checkbox">
+      <label for="checkbox" class="navbar-icon"><i class="fas fa-bars"></i></label>
+      <ul class="navbar">
+        <li class="navbar-link"><a href="index.html" class="navbar-item ">Home</a></li>
+        <li class="navbar-link"><a href="about.html" class="navbar-item">About</a></li>
+        <li class="navbar-link"><a href="contact.html" class="navbar-item active">Contact</a></li>
+        <!-- <li class="navbar-link"><a href="animation.html" class="navbar-item ">Animation</a></li> -->
+      </ul>
+
+    </nav>
+    <div class="slider">
+      <h1 class="title h1 ">Contact Us</h1>
+      <p class="text p ">>Get in touch with us now!.</p>
+    </div>
+  </header>
+  <div class="contact-form">
+    <form action="mailto:support@apextrade.biz" method="POST" class="form-action">
+      <div class="form-field">
+        <input type="text" placeholder="Name" name="name">
+      </div>
+      <div class="form-field">
+        <input type="email" placeholder="Email" name="email">
+      </div>
+      <div class="form-field">
+        <textarea name="" id="" cols="30" rows="10" placeholder="Message" name="message"></textarea>
+      </div>
+      <div class="form-field">
+        <input type="submit" value="Send Mail">
+      </div>
+    </form>
+
+  </div>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.586941248113!2d7.107900481823966!3d6.051264511122216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1043756e148cb45f%3A0xd0af7f782abe6937!2sFederal%20Polytechnic%2C%20Oko!5e0!3m2!1sen!2sng!4v1622737301726!5m2!1sen!2sng" width="1330" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+</body>
+</html>
