@@ -121,6 +121,10 @@
 
 }
 @media screen and (max-width:710px){
+  .navbar{
+    margin-top:-50%;
+    height:400px;
+  }
   .slider .title{
   font-size: 2.5rem;
 }
